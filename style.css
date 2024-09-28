@@ -1,0 +1,36 @@
+body {
+    font-family: 'Roboto',sans-serif;
+    
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+}
+
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.hero_CTA {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero_header {
+    font-size: 48px;
+    font-weight: 900px;
+}
+
+.hero_image {
+    background-color: lightgray;
+    width: 600px;
+    height: 200px;
+    margin: 20px;
+}
