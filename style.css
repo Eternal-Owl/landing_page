@@ -3,7 +3,8 @@
 
 
 body {
-    font-family: 'Roboto',sans-serif;    
+    font-family: 'Roboto',sans-serif;   
+    margin: 0; 
 }
 
 button {
@@ -19,6 +20,9 @@ button {
     background-color: #1F2937;
     color: white;
     justify-content: space-between;
+    padding: 16px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .logo {
@@ -28,11 +32,12 @@ button {
 
 ul.nav_links {
         list-style: none;
-}
-
-.nav_links {
-    display: flex;
-    gap: 10px;
+        display: flex;
+        gap: 10px;
+    }
+ul.nav_links li {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 /* Hero Section */
@@ -41,6 +46,9 @@ ul.nav_links {
     display: flex;
     background-color: #1F2937;
     color: white;
+    padding: 80px;
+    padding-left: 200px;
+    padding-right: 200px;
 
     align-items: center;
     justify-content: center;
@@ -65,10 +73,62 @@ ul.nav_links {
 
 /* Image Carousel Section */
 
+.image_section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    padding: 24px;
+    align-self: center;
+    margin: 24px;
+
+}
+
+.image_block_group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 36px;
+}
+
+.image_block {
+    width: 150px;
+    margin-bottom: 80px;
+}
+
+div.image_block p {
+    text-wrap: wrap;
+
+}
+
+div.image_block img {
+    width: 100%;
+    height: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 10px; 
+
+}
+
+
+
 
 
 
 /* Quote Block Section */
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+}
 
 
 
