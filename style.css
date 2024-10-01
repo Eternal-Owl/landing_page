@@ -1,13 +1,41 @@
+
+/* Global Formatting */
+
+
 body {
-    font-family: 'Roboto',sans-serif;
-    
+    font-family: 'Roboto',sans-serif;    
 }
+
+button {
+
+    
+    background-color: #3882F6;
+}
+
+/* Header & Nav Sections */
 
 .header {
     display: flex;
     background-color: #1F2937;
     color: white;
+    justify-content: space-between;
 }
+
+.logo {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+ul.nav_links {
+        list-style: none;
+}
+
+.nav_links {
+    display: flex;
+    gap: 10px;
+}
+
+/* Hero Section */
 
 .hero {
     display: flex;
@@ -34,3 +62,19 @@ body {
     height: 200px;
     margin: 20px;
 }
+
+/* Image Carousel Section */
+
+
+
+
+/* Quote Block Section */
+
+
+
+/* CTA Block Section */
+.white_border {
+    border: #F9FAF8;
+}
+
+/* Footer Section */
